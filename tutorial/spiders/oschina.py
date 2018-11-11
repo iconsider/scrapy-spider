@@ -24,7 +24,7 @@ class oschina(scrapy.Spider):
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
     }
 
-
+    #当spider启动爬取并且未制定URL时，该方法被调用
     def start_requests(self):
         urls = [
             # r'https://my.oschina.net/xuwa/fans?s=time&p=1',

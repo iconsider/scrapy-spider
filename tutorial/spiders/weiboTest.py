@@ -32,7 +32,7 @@ class weibotest(scrapy.Spider):
             "SUHB": "0oU4EuHyweD1ks",
             "ALF": "1524845998",
             "SSOLoginState": "1493309999",
-            "un": "331072550@qq.com",
+            "un": "xxxxxxxxxxxxx@qq.com",
             "wvr": "6",
         }
 

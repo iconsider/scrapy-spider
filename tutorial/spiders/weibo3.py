@@ -97,7 +97,7 @@ def login(su, sp, servertime, nonce, rsakv):
 
 if __name__ == '__main__':
     servertime, nonce, pubkey, rsakv = getLoginInfo()
-    su = getSu("331072550@qq.com")
+    su = getSu("xxxxxxxxxxxxx@qq.com")
     # su = getSu("xxxxxxxxxxxxxx")
-    sp = getSp("Lmlmd312068", servertime, nonce, pubkey)
+    sp = getSp("xxxxxxxxxxxxx", servertime, nonce, pubkey)
     session = login(su, sp, servertime, nonce, rsakv)

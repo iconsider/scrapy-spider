@@ -46,6 +46,6 @@ def login(username, password):
     return session
 
 if __name__ == '__main__':
-    username = "331072550@qq.com"
-    password = "Lmlmd312068"
+    username = "xxxxxxxxxxxxx@qq.com"
+    password = "xxxxxxxxxxxxx"
     session = login(username, password)

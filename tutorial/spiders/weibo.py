@@ -20,8 +20,8 @@ class WeiboSpider(scrapy.Spider):
         url = r'http://login.sina.com.cn/sso/login.php?client=ssologin.js(v1.4.18)'
 
         servertime, nonce, pubkey, rsakv = self.getLoginInfo()
-        su = self.getSu("331072550@qq.com")
-        sp = self.getSp("Lmlmd312068", servertime, nonce, pubkey)
+        su = self.getSu("xxxxxx@qq.com")
+        sp = self.getSp("xxxxxxxxxxx", servertime, nonce, pubkey)
         pd = self.makeData(su, sp, servertime, nonce, rsakv)
 
         # self.logger.info("****************************")
